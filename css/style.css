@@ -54,6 +54,13 @@ img {
   font-family: "simple-line-icons";
 }
 
+.dots::before {
+  content: "\e603";
+  font-family: "simple-line-icons";
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -102,14 +109,12 @@ header {
   place-content: center;
 }
 
-.dots::before {
-  content: "\e603";
-  font-family: "simple-line-icons";
-  margin-right: 1em;
-  vertical-align: middle;
-}
-
-footer {
+/* Hero Section */
+.section-hero {
+  background: url("../images/salon-main-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50em;
 }
 
 /******************************************
