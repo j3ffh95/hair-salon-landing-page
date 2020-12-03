@@ -23,7 +23,7 @@
 
 body {
   font-family: "Mulish", sans-serif;
-  background: #f1f1f1;
+  background: #fff;
   color: #333;
   line-height: 1.5;
 }
@@ -81,6 +81,19 @@ img {
 .btn-light {
   background-color: white;
   color: black;
+}
+
+.card {
+  width: 40%;
+  padding: 2em;
+  background: black;
+  position: absolute;
+  top: 85%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
 
 /******************************************
@@ -161,6 +174,7 @@ header {
 }
 
 .text-content {
+  position: relative;
   width: 60%;
   font-family: "cinzel", sans-serif;
   padding: 10em 0;
@@ -177,6 +191,35 @@ header {
 
 .lead {
   letter-spacing: 4px;
+}
+
+/* Section 3-column */
+.three-column {
+  padding: 10em 0 5em;
+}
+
+.box {
+  text-align: center;
+  flex-basis: 32%;
+  padding: 0 2em;
+}
+
+.box-header {
+  font-family: "cinzel", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.box-body {
+  color: #737373;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 2;
+}
+
+.img-icon {
+  display: inline-block;
 }
 
 /******************************************
