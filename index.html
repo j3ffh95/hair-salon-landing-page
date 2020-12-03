@@ -25,9 +25,11 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="container">
       <div class="logo">
-        <img src="./images/dark_logo.png" alt="logo" class="logo-img" />
+        <a href="#" class="logo-link">
+          <img src="./images/dark_logo.png" alt="logo" class="logo-img" />
+        </a>
       </div>
       <nav class="main-nav">
         <ul class="nav-list">
@@ -39,16 +41,39 @@
           <li class="list-item"><a href="#">Shop</a></li>
           <li class="list-item"><a href="#">Contact</a></li>
           <li class="list-item"><a href="#" class="search-icon"></a></li>
-          <li class="list-item">
-            <a href="#" class="handbag">i.icon-handbag</a>
+          <li class="list-item handbag-item">
+            <a href="#" class="handbag"><i class="icon-handbag"></i></a>
             <span class="count-icon">0</span>
           </li>
         </ul>
       </nav>
-      <div class="book-online">
-        <a href="#">Book Online</a>
+      <div class="dots">
+        <a href="#" class="book-link">Book Online</a>
       </div>
     </header>
+    <main class="main-section">
+      <section class="section-hero">
+        <div class="container">
+          <div class="text-content">
+            <h1 class="main-header">Blonde & Highlight</h1>
+            <p class="lead">DIVIDE YOUR UNIQUENESS BY YOUR HAIRS IN STYLE</p>
+            <div class="dots">
+              <a href="#" class="btn btn-dark">Our Services</a>
+            </div>
+            <div class="card">
+              <h2>Your first visit?</h2>
+              <p>-20% OFF FOR THE FIRST CLASSIC HAIR COLORING</p>
+              <div class="dots">
+                <a href="#" class="btn btn-light">Book online</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hours">
+          <p>MON - Sun : 7:00AM - 8:00PM</p>
+        </div>
+      </section>
+    </main>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

@@ -28,14 +28,85 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Utilities Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-icon::before {
+  content: "\e090";
+  font-family: "simple-line-icons";
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 80px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
 
-p {
+.main-nav {
+  width: 70%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-item > a {
+  padding: 1em 0.5em;
+}
+
+.handbag-item {
+  position: relative;
+}
+
+.count-icon {
+  position: absolute;
+  top: 13px;
+  left: 17px;
+  font-size: 0.7rem;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 0.7em;
+  display: grid;
+  place-content: center;
+}
+
+.dots::before {
+  content: "\e603";
   font-family: "simple-line-icons";
+  margin-right: 1em;
+  vertical-align: middle;
 }
 
 footer {
