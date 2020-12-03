@@ -57,6 +57,22 @@ img {
   line-height: 2;
 }
 
+.icon-style {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background: black;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 0 0.5em;
+}
+
+.icon-style:hover {
+  transform: scale(1.1) rotate(360deg);
+}
+
 .search-icon::before {
   content: "\e090";
   font-family: "simple-line-icons";
@@ -71,6 +87,23 @@ img {
 
 .btn .dots::before {
   margin-right: 0.5em;
+}
+
+.primary-header {
+  font-family: "cinzel", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.primary-header::after {
+  content: "";
+  width: 35px;
+  background: black;
+  display: block;
+  height: 4px;
+  margin: 0.5em auto 1.5em;
+  border-radius: 50px;
 }
 
 .btn {
@@ -139,8 +172,8 @@ header {
 
 .count-icon {
   position: absolute;
-  top: 13px;
-  left: 17px;
+  top: 10px;
+  left: 15px;
   font-size: 0.7rem;
   background: black;
   color: white;
@@ -254,6 +287,50 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* Stylers And Promo Section */
+.styler-box {
+  flex-basis: 23%;
+  text-align: center;
+  font-family: "cinzel", sans-serif;
+  position: relative;
+}
+
+.styler-box > h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.styler-box > p {
+  font-size: 0.8rem;
+  font-family: "mulish", sans-serif;
+  text-transform: uppercase;
+}
+
+.styler-social-links {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.styler-img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.styler-box:hover > .styler-social-links {
+  visibility: visible;
+  opacity: 1;
+}
+
+.styler-box:hover > .styler-img {
+  opacity: 0.5;
 }
 
 /******************************************
