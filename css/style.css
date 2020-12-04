@@ -47,6 +47,7 @@ img {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 4rem;
 }
 
 .lead-body {
@@ -224,7 +225,7 @@ header {
 
 .main-header-text {
   font-family: "cinzel", sans-serif;
-  font-size: 7em;
+  font-size: 5em;
   margin: 0;
   font-weight: 300;
   line-height: 1.2;
@@ -295,7 +296,7 @@ header {
 }
 
 .styler-box {
-  flex-basis: 23%;
+  width: 230px;
   text-align: center;
   font-family: "cinzel", sans-serif;
   position: relative;
