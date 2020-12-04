@@ -290,6 +290,10 @@ header {
 }
 
 /* Stylers And Promo Section */
+.stylers-section .flex {
+  flex-wrap: wrap;
+}
+
 .styler-box {
   flex-basis: 23%;
   text-align: center;
@@ -358,8 +362,8 @@ header {
 
 /* Lookbook Section */
 .lookbook-section {
-  height: 170em;
-  padding: 0 2rem;
+  /* height: 170em; */
+  padding: 0 2rem 5rem;
 }
 
 .grid-container {
@@ -388,10 +392,26 @@ header {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  /* z-index: -1; */
+  z-index: 1;
 }
 
-.grid-item:hover.grid-item::after {
+.grid-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: url("https://ayesha.dropletthemes.com/wp-content/themes/ayesha/images/entry-overlay.png")
+    no-repeat center;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+
+.grid-item:hover.grid-item::after,
+.grid-item:hover.grid-item::before {
   opacity: 1;
 }
 
