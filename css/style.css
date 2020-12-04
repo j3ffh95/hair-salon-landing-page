@@ -197,6 +197,7 @@ header {
     url("../images/salon-main-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 50em;
 }
 
