@@ -343,7 +343,7 @@ header {
 .promo-section {
   background-image: url("../images/Promo-Banner-Image.jpg");
   background-size: cover;
-  padding: 5em;
+  padding: 4em;
   margin: 5em 0;
   font-family: "cinzel", sans-serif;
 }
