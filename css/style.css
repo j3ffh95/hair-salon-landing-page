@@ -68,6 +68,7 @@ img {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   margin: 0 0.5em;
+  text-align: center;
 }
 
 .icon-style:hover {
