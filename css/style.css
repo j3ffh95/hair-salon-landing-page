@@ -543,6 +543,25 @@ header {
   gap: 0.5rem;
 }
 
+.footer-bottom-section {
+  border-top: solid 2px #262626;
+}
+
+.copyright > p {
+  font-size: 0.825rem;
+  font-weight: 300;
+}
+
+.footer-nav a {
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.footer-nav {
+  width: 30rem;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
