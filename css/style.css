@@ -453,6 +453,96 @@ header {
   grid-row: 2/4; */
 }
 
+/* Footer Section */
+.main-footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.main-footer > .flex > * {
+  width: 15rem;
+}
+
+.footer-heading {
+  font-family: "cinzel";
+  font-weight: 400;
+}
+
+.footer-heading::after {
+  display: block;
+  content: "";
+  width: 30px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 20px 0 25px 0;
+}
+
+.footer-heading ~ p {
+  line-height: 2;
+  font-size: 0.875rem;
+}
+
+.footer-box .icon-style {
+  margin: 0 0.2em;
+  color: #000;
+  background: #fff;
+}
+
+.popular-item {
+  padding-bottom: 1em;
+}
+
+.popular-item > img {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+.popular-headline {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.popular-date {
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+.info-section {
+  font-family: "simple-line-icons";
+  font-size: 0.825rem;
+}
+
+.info-section > *::before {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.clock-icon::before {
+  content: "\e081";
+}
+
+.phone-icon::before {
+  content: "\e600";
+}
+
+.location-icon::before {
+  content: "\e033";
+}
+
+.email-icon::before {
+  content: "\e01f";
+}
+
+.lookbook-footer.grid-container {
+  grid-template-columns: repeat(auto-fit, minmax(65px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
