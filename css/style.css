@@ -259,6 +259,24 @@ header {
   letter-spacing: 4px;
 }
 
+@media screen and (max-width: 768px) {
+  .text-content {
+    width: 80%;
+  }
+
+  .main-header-text {
+    font-size: 4em;
+  }
+
+  .card {
+    width: 60%;
+  }
+
+  .hours {
+    display: none;
+  }
+}
+
 /* Section 3-column */
 .three-column {
   padding: 10em 0 5em;
@@ -278,6 +296,9 @@ header {
 
 .img-icon {
   display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
 }
 
 /* Video Section */
