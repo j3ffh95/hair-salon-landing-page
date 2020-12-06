@@ -429,9 +429,18 @@ header {
   font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+  .promo-section {
+    background-position: center;
+  }
+
+  .promo-body > h3 {
+    font-size: unset;
+  }
+}
+
 /* Lookbook Section */
 .lookbook-section {
-  /* height: 170em; */
   padding: 0 2rem 5rem;
 }
 
