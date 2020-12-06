@@ -637,6 +637,25 @@ header {
   width: 30rem;
 }
 
+@media screen and (max-width: 768px) {
+  .main-footer > .flex {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  .footer-bottom-section > .flex {
+    align-items: center;
+  }
+
+  .copyright > p {
+    font-size: 0.65rem;
+  }
+
+  .footer-nav {
+    width: unset;
+  }
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
