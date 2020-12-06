@@ -326,6 +326,21 @@ header {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .three-column {
+    padding: unset;
+  }
+
+  .three-column .flex {
+    display: block;
+  }
+
+  .box {
+    padding: unset;
+    margin: 5em 0;
+  }
+}
+
 /* Video Section */
 .video-section {
   background-color: #f3f4f6;
@@ -373,6 +388,9 @@ header {
   .play-icon {
     width: 4rem;
   }
+}
+
+@media (max-width: 500px) {
 }
 
 /* Stylers And Promo Section */
