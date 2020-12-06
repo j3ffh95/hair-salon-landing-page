@@ -492,6 +492,25 @@ header {
   }
 }
 
+@media (max-width: 500px) {
+  .primary-header {
+    font-size: 2rem;
+  }
+
+  .stylers-section .flex {
+    justify-content: center;
+  }
+
+  .promo-section {
+    background-position: 65%;
+    padding: 1em;
+  }
+
+  .btn {
+    font-size: 0.6rem;
+  }
+}
+
 /* Lookbook Section */
 .lookbook-section {
   padding: 0 2rem 5rem;
