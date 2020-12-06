@@ -600,6 +600,16 @@ header {
   grid-row: 2/4; */
 }
 
+@media (max-width: 500px) {
+  .lookbook-section {
+    padding: 2rem 0;
+  }
+
+  .lookbook-section .container {
+    padding: unset;
+  }
+}
+
 /* Footer Section */
 .main-footer {
   background-color: #000;
@@ -725,6 +735,12 @@ header {
 
   .footer-nav {
     width: unset;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-nav a {
+    font-size: 0.6rem;
   }
 }
 
