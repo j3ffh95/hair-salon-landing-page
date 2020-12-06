@@ -299,6 +299,14 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  .three-column .flex {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .box {
+    flex-basis: 50%;
+  }
 }
 
 /* Video Section */
