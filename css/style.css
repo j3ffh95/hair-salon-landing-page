@@ -187,6 +187,28 @@ header {
   place-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    height: 130px;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .main-nav {
+    width: 100%;
+  }
+
+  .nav-list {
+    padding: 0;
+  }
+
+  .dots {
+    margin: 0 auto;
+  }
+}
+
 /* Hero Section */
 .section-hero {
   position: relative;
